@@ -1,13 +1,9 @@
-import Footer from "./ui/footer/footer";
-import Header from "./ui/header/header";
-import Hero from "./ui/hero/hero";
+import style from "./about.module.css"
 
-export default function Home() {
+export default function About() {
   return (
-    <>
-      <Header />
-      <Hero />
-      <Footer />
-    </>
-  );
+    <div className={style.section}>
+      <h1>Садовый кооператив "Меркурий"</h1>
+    </div>
+  )
 }

@@ -1,8 +1,19 @@
-export default function Header() {
+import style from "./header.module.css"
+import Link from "next/link";
+const menu = [
+  ["О нас", "/"],
+  ["Новости", "/news"],
+  ["Информация", "/info"],
+  ["Контакты", "/contacts"]
+];
+
+export default  function Header() {
+
   return (
-    <>
-      <h1>Документы - Новости - Контакты - Другое</h1>
-      <hr />
-    </>
-  )
+    <ul className={style.ul}>
+      {menu.map(([title, goto]) => <li key={title} className='hover:shadow-lg'>
+        <Link href={goto}>{title}</Link>
+      </li>)}
+    </ul>
+  );
 }
