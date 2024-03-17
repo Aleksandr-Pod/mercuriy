@@ -3,3 +3,10 @@
   width: 100%;
   background-color: #b2adfa;
 }
+.art1 {
+  width: 60%;
+  padding: 8px;
+  font-size: large;
+  border: 1px solid blue;
+  border-radius: 12px;
+}

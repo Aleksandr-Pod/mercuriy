@@ -1,5 +1,11 @@
+import { FullLogo } from "../logo";
+import styles from "./footer.module.css"
+
 export default function Footer() {
   return (
-    <h3>Developed by "Dig_In"</h3>
+    <div className={styles.tm}>
+      <h3>Developed by </h3>
+      <FullLogo />
+    </div>
   )
 }
