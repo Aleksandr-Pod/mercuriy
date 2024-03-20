@@ -1,5 +1,5 @@
 .section {
   height: 600px;
   width: 100%;
-  background-color: #bdfc89;
+  background: url("/bg/grass_flowers.jpg") center / cover;
 }

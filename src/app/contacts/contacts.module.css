@@ -1,5 +1,5 @@
 .section {
   height: 600px;
   width: 100%;
-  background-color: #e6b2d6;
+  background: url("/bg/evening_1000_750.jpg") center / cover;
 }

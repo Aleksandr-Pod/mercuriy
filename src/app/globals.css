@@ -5,7 +5,11 @@ body {
 }
 h1,
 h2 {
-  text-align: center;
+  margin: 0 auto;
+  padding: 8px 24px;
+  width: fit-content;
+  background-color: #b2adfaa0;
+  border-radius: 12px;
 }
 a {
   color: inherit;
