@@ -4,5 +4,15 @@
   background: url("/bg/evening_1000_750.jpg") center / cover;
 }
 .contacts_list {
-  background-color: rgba(127, 255, 212, 0.2);
+  background-color: #b2adfa40;
+  border-radius: 4px;
+  width: 50%;
+  margin: auto;
+  padding: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts_list {
+    width: 90%;
+  }
 }

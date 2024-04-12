@@ -20,7 +20,7 @@ export default function Info() {
           (097) 951 91 47 - Константин
         </p>
         <p className={styles.art2}>
-          Асенізатор - выкачка ямы:<br />
+          Асенізатор - викачка ями:<br />
           (067) 981 37 60 - Віталій
         </p>
       </section>
