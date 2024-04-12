@@ -1,0 +1,14 @@
+.section {
+  height: 600px;
+  width: 100%;
+  background: url("/bg/mulberry_1717_1288.jpg") center / cover;
+}
+
+.art1 {
+  width: 60%;
+  padding: 8px;
+  font-size: large;
+  border: 1px solid blue;
+  border-radius: 12px;
+  background-color: #b2adfa;
+}
