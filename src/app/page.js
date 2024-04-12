@@ -2,8 +2,10 @@ import style from "./about.module.css"
 
 export default function About() {
   return (
-    <section className={style.section}>
-      <h1>Садовый кооператив "Меркурий"</h1>
-    </section>
+    <div className={style.bg}>
+      <section>
+        <h1>Садівничий кооператив "Меркурій"</h1>
+      </section>
+    </div>
   )
 }

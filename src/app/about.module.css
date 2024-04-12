@@ -1,5 +1,5 @@
-.section {
+.bg {
   height: 600px;
-  width: 100%;
+  width: 100vw;
   background: url("/bg/blossoming_sweet_cherry_1333_1000.jpg") center / cover;
 }
