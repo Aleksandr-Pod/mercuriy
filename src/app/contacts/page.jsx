@@ -4,12 +4,12 @@ export default function Contacts() {
   return (
     <div className={styles.bg}>
       <section>
-        <h2>Наши контакти</h2>
+        <h2 style={{backgroundColor: "transparent"}}>Наши контакти</h2>
         <ul className={styles.contacts_list}>
-          <p>Глава правління - Світлана Сафронова</p>
+          <p>Глава правління - Сафронова Світлана Володимирівна </p>
         </ul>
           
-        <h2>Члени правління:</h2>
+        <h2 style={{backgroundColor: "transparent"}}>Члени правління:</h2>
         <ul className={styles.contacts_list}>
           <p>Вовк Андрій;</p>
           <p>Даниленко Василь;</p>

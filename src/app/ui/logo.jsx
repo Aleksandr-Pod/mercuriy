@@ -2,9 +2,9 @@ export const Logo = () => (
 <svg width="52" height="62" viewBox="0 0 52 62" fill="none" >
 	<defs>
 		<linearGradient id="gradient" x1="18" y1="5" x2="47" y2="52" gradientUnits="userSpaceOnUse">
-			<stop stop-color="#000" />
-			<stop offset="0.5" stop-color="#666"/>
-			<stop offset="1" stop-color="#bbb" />
+			<stop stopColor="#000" />
+			<stop offset="0.5" stopColor="#666"/>
+			<stop offset="1" stopColor="#bbb" />
 		</linearGradient>
 	</defs>
 	<g>
@@ -18,9 +18,9 @@ export const FullLogo = () => (
 
 	<defs>
 		<linearGradient id="paint_linear_168_423_5" x1="66" y1="20" x2="147" y2="50" gradientUnits="userSpaceOnUse">
-			<stop stop-color="#000"/>
-			<stop offset="0.6" stop-color="#666"/>
-			<stop offset="1" stop-color="#bbb"/>
+			<stop stopColor="#000"/>
+			<stop offset="0.6" stopColor="#666"/>
+			<stop offset="1" stopColor="#bbb"/>
 		</linearGradient>
 
 		<linearGradient id="paint_linear_168_425_1" x1="84.5" y1="6.6" x2="113" y2="53.54" gradientUnits="userSpaceOnUse">

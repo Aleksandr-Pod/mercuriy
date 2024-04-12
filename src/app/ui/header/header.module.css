@@ -9,7 +9,16 @@
   align-items: center;
   font-size: 24px;
   font-weight: 700;
-  list-style: none;
+}
+.menu_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: spa;
+  align-items: center;
+}
+.menu_list li {
+  padding: 4px 24px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,6 +28,15 @@
   .menu {
     font-size: 20px;
     font-weight: 700;
+  }
+  .menu_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu_list li {
+    padding: 4px 16px;
   }
 }
 
@@ -30,11 +48,34 @@
     font-size: 16px;
     font-weight: 700;
   }
+  .menu_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu_list li {
+    padding: 4px 12px;
+  }
 }
-
+@media screen and (max-width: 560px) {
+  .menu {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .menu_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .menu_list li {
+    padding: 4px 8px;
+  }
+}
 @media screen and (max-width: 380px) {
   .menu {
-    font-size: 12px;
-    font-weight: 500;
+    width: 380px;
   }
 }
