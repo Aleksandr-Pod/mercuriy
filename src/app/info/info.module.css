@@ -22,3 +22,11 @@
   background-color: #b2adfa;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .art1,
+  .art2 {
+    width: 90%;
+    margin: 4px auto;
+    font-size: medium;
+  }
+}

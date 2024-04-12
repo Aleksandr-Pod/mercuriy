@@ -1,5 +1,9 @@
 .menu {
   margin: 0;
+  width: 100vw;
+  position: fixed;
+  background-color: #cacaca;
+
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -30,7 +34,7 @@
 
 @media screen and (max-width: 380px) {
   .menu {
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: 500;
   }
 }

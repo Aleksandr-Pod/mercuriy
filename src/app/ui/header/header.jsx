@@ -15,11 +15,11 @@ export default function Header() {
 
   return (
       <ul className={style.menu}>
-      <Image src="/mercuriy-logo.png" width={64} height={64} alt="logo" className="logo"/>
+        <Image src="/mercuriy-logo.png" width={64} height={64} alt="logo" className="logo"/>
         {menu.map(([title, goto]) => <li key={title} className='hover:shadow-lg'>
           <Link href={goto}>{title}</Link>
         </li>)}
-      <Logo/>
+        <Logo/>
       </ul>
   );
 }
